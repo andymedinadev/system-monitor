@@ -1,6 +1,6 @@
 # Configuration variables
-WIDTH = 674  # Adjusted width when adding more information
-HEIGHT = 50  # Height of the overlay window
+WIDTH = 240  # Adjusted width when adding more information
+HEIGHT = 42  # Height of the overlay window
 UPDATE_INTERVAL = 500  # in milliseconds
 GRAPH_HISTORY_LENGTH = 20  # Number of data points to display in the graph
 CPU_GRAPH_COLOR = "#93bbe9"  # Color of the CPU graph

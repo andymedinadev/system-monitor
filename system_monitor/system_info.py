@@ -30,7 +30,7 @@ def get_system_info():
     Returns:
         tuple: CPU usage (%), RAM usage (%), Disk usage (%), Network sent (bytes), Network received (bytes).
     """
-    cpu_usage = psutil.cpu_percent(interval=0)  # Non-blocking call
+    cpu_usage = psutil.cpu_percent(interval=None)  # Non-blocking call
     memory_info = psutil.virtual_memory()
     memory_usage = memory_info.percent
     disk_usage = psutil.disk_usage("/").percent
